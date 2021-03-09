@@ -24,6 +24,8 @@ insert into spells values ('your name','spell name','description');
 
 /* to view entered data */
 select * from spells;
+
+.quit
 ```
 * Commit the changes and push them to your forked repository.
 * Create a pull request.
