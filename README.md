@@ -50,3 +50,6 @@ It is used to query data from single table.</br>
 You can refer all the uses of `SELECT` statement from [here](https://www.sqlitetutorial.net/sqlite-select/).
 
 These was the basic knowledge of SQLite. To know more about the topics like sorting, filtering, grouping the data and many more you can refer this website https://www.sqlitetutorial.net/
+## Exercise for SQLite:
+This is the link to exercise 
+https://github.com/kushansuk2/sqlite3/blob/main/SQLite-Excercise.md
