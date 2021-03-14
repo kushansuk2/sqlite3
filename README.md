@@ -51,7 +51,7 @@ You can refer all the uses of `SELECT` statement from [here](https://www.sqlitet
 
 These was the basic knowledge of SQLite. To know more about the topics like sorting, filtering, grouping the data and many more you can refer this website https://www.sqlitetutorial.net/
 
-##Python usecases:</br>
+## Python usecases:</br>
 SQLite3 can be integrated with Python using sqlite3 module, which was written by Gerhard Haring. It provides an SQL interface compliant with the DB-API 2.0 specification described by PEP 249. You do not need to install this module separately because it is shipped by default along with Python version 2.5.x onwards.
 
 To use sqlite3 module, you must first create a connection object that represents the database and then optionally you can create a cursor object, which will help you in executing all the SQL statements.</br>
@@ -78,7 +78,7 @@ These are few sqlite modules from whic sqlite is controlled through python:
 For a more in depth study you can go [here](www.tutorialspoint.com/sqlite/sqlite_python.htm)
 Wait a minute this isn't over yet.
 
-###pandas and sqlite
+### pandas and sqlite
 You know there is a easy way by which you can convert a sqlite database into panda dataframe for easy data manupulation
 ```
 import sqlite3
@@ -89,14 +89,14 @@ cnx = sqlite3.connect('file.db')
 df = pd.read_sql_query("SELECT * FROM table_name", cnx)
 ```
 
-##Few Tips
+## Few Tips
 While using sqlite in python or in any other language
-###use this
-![use this](images/3g.jpg?raw=true "Use this")
-###and not this
+### use this
+![use this](images/3.jpg?raw=true "Use this")
+### and not this
 ![do not use this](images/4.jpg?raw=true "Do not use this")
 
-##Few problems
+## Few problems
 Sqlite is susceptible to request overloading. By this I mean to say that if two users try to do same thing thing then only one request will be accepted and other will be ignored. But in few other database language requests are queued so that it can be handled properly.
 ![request overloaded](images/problem.jpg?raw=true "Title")
 
